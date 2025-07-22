@@ -600,6 +600,66 @@ print(xtable(head(lca.lc3, digits=4)), type="html")
 - Latent Profile Analyses (LPA)
 - LTA: latent transition analysis
 
+## Ejemplos con datos fondecyt:
+
+- Estereotipos: tres clases
+
+```{r echo=FALSE, out.width = '80%', fig.retina = 1, fig.align='center'}
+knitr::include_graphics('input/images/estereotipos-tresclases-1.png')
+```
+
+## Ejemplos con datos fondecyt:
+
+- emociones: cuatro clases
+
+```{r echo=FALSE, out.width = '80%', fig.retina = 1, fig.align='center'}
+knitr::include_graphics('input/images/emociones-cuatroclases-1.png')
+```
+
+
+## 
+
+### Cohesión Social en Chile en Tiempos de Cambio
+
+::: columns
+::: {.column width="50%"}
+
+![](input/images/cohesion-chile.png)
+
+:::
+
+::: {.column .column-right width="50%"}
+
+- Medición de cohesión social en Chile con base en esquema CEPAL
+
+- Capítulo 1: Medición de cohesión social
+
+- Capítulo 2: Cambios durante 2016-2021
+
+- Capítulo 3: Análisis de clases latentes; tres tipos de personas
+
+:::
+:::
+
+## 
+
+### Capítulo 1: Foco en Expresiones constitutivas de la cohesión
+
+![](input/images/cohesion-cepal.png)
+
+##
+
+### Capítulo 3: Análisis de clases latentes con base de datos longitudinal (2016-2021)
+
+  1. En cada ola de la encuesta ELSOC se estiman las medias de los indicadores (que fueron seleccionados según los criterios del capítulo I del Informe) para cada subdimension. El resultado es tener el promedio simple de cada subdimensión en todas las olas que estos indicadores están presentes
+
+  2. Se estima la media general de cada subdimensión según las medias estimadas en el paso anterior. El resultado es tener 9 promedios simples, uno por cada subdimensión.
+
+  3. Para categorizar las variables en dos categorías de respuestas y realizar el análisis de clases latentes, se establece como criterio de corte la mediana de cada variable. Los valores menores o iguales a la mediana se consideran como “1” y los valores mayores a la mediana se consideran como “2”.
+  
+## Resultado: Tres clases
+
+![](input/images/tresclases-cohesion.png)
 
 ##
 
